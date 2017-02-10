@@ -11,7 +11,7 @@ defmodule Migrator.Mixfile do
   ]
 
   def application, do: [
-    applications: [:logger, :postgrex, :ecto],
+    applications: [:logger, :postgrex, :ecto, :crypto],
     mod: {Migrator, []}
   ]
 
